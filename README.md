@@ -617,6 +617,6 @@ RepoVerse brings those signals into one engineering workspace and adds an AI lay
 
 **AI/ML & Software Engineer · MS Computer Science, USC**
 
-RAG systems · Agentic AI · Full-stack products · Production ML
+RAG systems · Code intelligence · Full-stack AI products · Production ML
 
 </div>
