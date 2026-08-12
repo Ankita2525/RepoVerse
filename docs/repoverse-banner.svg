@@ -1,0 +1,161 @@
+<svg width="1600" height="460" viewBox="0 0 1600 460" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="460" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07111F"/>
+      <stop offset="0.48" stop-color="#101B3A"/>
+      <stop offset="1" stop-color="#1C0D35"/>
+    </linearGradient>
+    <linearGradient id="title" x1="110" y1="150" x2="700" y2="260" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4DE3FF"/>
+      <stop offset="0.45" stop-color="#8B7CFF"/>
+      <stop offset="1" stop-color="#FF5FB2"/>
+    </linearGradient>
+    <linearGradient id="orbit" x1="920" y1="70" x2="1470" y2="390" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#45E6FF"/>
+      <stop offset="0.33" stop-color="#7F7CFF"/>
+      <stop offset="0.67" stop-color="#FF69C9"/>
+      <stop offset="1" stop-color="#FFB85C"/>
+    </linearGradient>
+    <linearGradient id="card1" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#152B4F"/>
+      <stop offset="1" stop-color="#10203B"/>
+    </linearGradient>
+    <linearGradient id="card2" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#2A1746"/>
+      <stop offset="1" stop-color="#151D3B"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="28"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="460" rx="30" fill="url(#bg)"/>
+  <circle cx="150" cy="35" r="120" fill="#1D7BFF" opacity="0.12" filter="url(#soft)"/>
+  <circle cx="1460" cy="410" r="170" fill="#FF4FB5" opacity="0.12" filter="url(#soft)"/>
+  <circle cx="1195" cy="185" r="170" fill="#6A5CFF" opacity="0.08" filter="url(#soft)"/>
+
+  <!-- subtle grid -->
+  <g opacity="0.09" stroke="#A6C7FF">
+    <path d="M0 92H1600"/>
+    <path d="M0 184H1600"/>
+    <path d="M0 276H1600"/>
+    <path d="M0 368H1600"/>
+    <path d="M200 0V460"/>
+    <path d="M400 0V460"/>
+    <path d="M600 0V460"/>
+    <path d="M800 0V460"/>
+    <path d="M1000 0V460"/>
+    <path d="M1200 0V460"/>
+    <path d="M1400 0V460"/>
+  </g>
+
+  <!-- left copy -->
+  <rect x="95" y="76" width="238" height="38" rx="19" fill="#101E37" stroke="#3BCBFF" stroke-opacity="0.55"/>
+  <circle cx="121" cy="95" r="6" fill="#45E6FF"/>
+  <text x="140" y="101" fill="#C7EFFF" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="700" letter-spacing="1.3">AI CODEBASE INTELLIGENCE</text>
+
+  <text x="95" y="211" fill="url(#title)" font-family="Inter, Arial, sans-serif" font-size="96" font-weight="800" letter-spacing="-3">RepoVerse</text>
+  <text x="100" y="259" fill="#EAF2FF" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="650">Navigate a codebase like a universe.</text>
+  <text x="100" y="306" fill="#A8B8D8" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="450">GitHub repository → semantic index → grounded answers → engineering context</text>
+
+  <!-- feature pills -->
+  <g font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">
+    <rect x="100" y="347" width="160" height="42" rx="21" fill="#0E2E42" stroke="#42DDF5" stroke-opacity="0.7"/>
+    <text x="126" y="374" fill="#73EDFF">RAG Q&amp;A</text>
+
+    <rect x="274" y="347" width="201" height="42" rx="21" fill="#211C48" stroke="#9184FF" stroke-opacity="0.72"/>
+    <text x="299" y="374" fill="#B7AEFF">COMMIT INTEL</text>
+
+    <rect x="489" y="347" width="214" height="42" rx="21" fill="#3A1736" stroke="#FF74C6" stroke-opacity="0.72"/>
+    <text x="514" y="374" fill="#FF9BD5">MEETING INSIGHTS</text>
+  </g>
+
+  <!-- right-side universe / code map -->
+  <ellipse cx="1195" cy="232" rx="294" ry="145" stroke="url(#orbit)" stroke-width="2.2" stroke-dasharray="9 12" opacity="0.78"/>
+  <ellipse cx="1195" cy="232" rx="223" ry="108" stroke="#80A5FF" stroke-width="1.4" stroke-dasharray="4 9" opacity="0.42"/>
+
+  <!-- connecting graph -->
+  <g stroke-width="2" opacity="0.65">
+    <path d="M1060 138L1170 219" stroke="#50DFFF"/>
+    <path d="M1170 219L1329 123" stroke="#9D7DFF"/>
+    <path d="M1170 219L1370 259" stroke="#FF6ABD"/>
+    <path d="M1170 219L1064 329" stroke="#66E9B3"/>
+    <path d="M1170 219L1265 352" stroke="#FFB763"/>
+  </g>
+
+  <!-- central code node -->
+  <circle cx="1170" cy="219" r="67" fill="#0D1730" stroke="url(#orbit)" stroke-width="3" filter="url(#glow)"/>
+  <rect x="1127" y="178" width="86" height="82" rx="16" fill="#132343" stroke="#8AA9FF" stroke-opacity="0.75"/>
+  <text x="1143" y="231" fill="#ECF5FF" font-family="Menlo, Consolas, monospace" font-size="38" font-weight="700">&lt;/&gt;</text>
+  <circle cx="1212" cy="182" r="5" fill="#FF6ABD"/>
+  <circle cx="1200" cy="182" r="5" fill="#FFD36A"/>
+  <circle cx="1188" cy="182" r="5" fill="#61E9B8"/>
+
+  <!-- repo file card -->
+  <g>
+    <rect x="974" y="91" width="174" height="92" rx="18" fill="url(#card1)" stroke="#45E6FF" stroke-opacity="0.52"/>
+    <rect x="991" y="110" width="30" height="37" rx="5" fill="#183A59" stroke="#5CE6FF"/>
+    <path d="M1000 122H1014M1000 130H1010M1000 138H1013" stroke="#7CEEFF" stroke-width="2"/>
+    <text x="1032" y="124" fill="#F0F6FF" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700">SOURCE FILES</text>
+    <text x="1032" y="146" fill="#86A6C9" font-family="Inter, Arial, sans-serif" font-size="13">summarize + embed</text>
+    <text x="991" y="167" fill="#4DE3FF" font-family="Menlo, Consolas, monospace" font-size="12">src/**  →  vector(768)</text>
+  </g>
+
+  <!-- search card -->
+  <g>
+    <rect x="1263" y="78" width="192" height="104" rx="18" fill="url(#card2)" stroke="#A48BFF" stroke-opacity="0.55"/>
+    <circle cx="1296" cy="116" r="16" stroke="#BBAAFF" stroke-width="4"/>
+    <path d="M1308 129L1322 143" stroke="#BBAAFF" stroke-width="4" stroke-linecap="round"/>
+    <text x="1333" y="114" fill="#F1EDFF" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700">SEMANTIC SEARCH</text>
+    <text x="1333" y="136" fill="#AFA4D3" font-family="Inter, Arial, sans-serif" font-size="13">pgvector retrieval</text>
+    <rect x="1282" y="155" width="148" height="8" rx="4" fill="#38295B"/>
+    <rect x="1282" y="155" width="101" height="8" rx="4" fill="#9A80FF"/>
+  </g>
+
+  <!-- commit card -->
+  <g>
+    <rect x="1322" y="221" width="179" height="90" rx="18" fill="#2F1532" stroke="#FF6ABD" stroke-opacity="0.58"/>
+    <circle cx="1352" cy="250" r="9" fill="#FF6ABD"/>
+    <circle cx="1352" cy="280" r="9" fill="#7EECC3"/>
+    <path d="M1352 259V271" stroke="#DCA1CD" stroke-width="3"/>
+    <text x="1375" y="251" fill="#FFEAF7" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700">COMMIT DIFFS</text>
+    <text x="1375" y="273" fill="#D4A5C5" font-family="Inter, Arial, sans-serif" font-size="13">AI summaries</text>
+    <text x="1375" y="293" fill="#FF91CF" font-family="Menlo, Consolas, monospace" font-size="12">+24  -11</text>
+  </g>
+
+  <!-- meeting card -->
+  <g>
+    <rect x="1185" y="320" width="199" height="91" rx="18" fill="#392413" stroke="#FFB763" stroke-opacity="0.6"/>
+    <rect x="1204" y="341" width="28" height="28" rx="8" fill="#5A3518"/>
+    <path d="M1211 350H1226M1211 356H1224M1211 362H1220" stroke="#FFD18D" stroke-width="2"/>
+    <text x="1243" y="353" fill="#FFF0D8" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700">MEETING AUDIO</text>
+    <text x="1243" y="375" fill="#D8B98E" font-family="Inter, Arial, sans-serif" font-size="13">chapters → issue cards</text>
+    <text x="1204" y="397" fill="#FFC56F" font-family="Menlo, Consolas, monospace" font-size="12">AssemblyAI</text>
+  </g>
+
+  <!-- team card -->
+  <g>
+    <rect x="963" y="292" width="164" height="88" rx="18" fill="#12352E" stroke="#61E9B8" stroke-opacity="0.55"/>
+    <circle cx="993" cy="322" r="12" fill="#6EECC1"/>
+    <circle cx="1021" cy="322" r="12" fill="#7DA3FF"/>
+    <circle cx="1049" cy="322" r="12" fill="#FF75BF"/>
+    <text x="980" y="355" fill="#E8FFF8" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700">TEAM CONTEXT</text>
+    <text x="980" y="373" fill="#9CCEBE" font-family="Inter, Arial, sans-serif" font-size="12">shared projects + Q&amp;A</text>
+  </g>
+
+  <!-- small stars -->
+  <g fill="#D8E6FF">
+    <circle cx="851" cy="84" r="2"/>
+    <circle cx="909" cy="397" r="2"/>
+    <circle cx="1490" cy="80" r="2"/>
+    <circle cx="1540" cy="338" r="2"/>
+    <circle cx="875" cy="225" r="1.8"/>
+  </g>
+</svg>
